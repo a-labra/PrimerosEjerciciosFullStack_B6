@@ -8,7 +8,8 @@
     <script type="text/javascript">
         let precio = parseInt(prompt("¿De cuánto es la cuenta? "));
         let individuos = parseInt(prompt("¿Cuántos amigos son:? "));
-        pagoPorPersona = (precio * 1.10) / individuos
+        pagoPorPersona = (precio * 1.10) / individuos;
+				pagoPorPersona = pagoPorPersona.toFixed(2);
 				alert("¿A cada uno le toca pagar: $" + pagoPorPersona);
     </script>
 	</body>
